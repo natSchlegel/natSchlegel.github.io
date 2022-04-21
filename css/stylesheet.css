@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 body{
     background-color: #EACBC8;
     font-family: 'Inter', Arial;
@@ -13,7 +15,6 @@ body{
     grid-template-rows: 1fr 10fr;
     z-index: -555;
 }
-
 .background-right{
     background-color: #444969E5;
     width: 100%;
@@ -27,7 +28,6 @@ body{
     color:#FFF;
     padding: 30px;
 }
-
 .background-left{
     background-color: #93A3BD;
     border-radius: 0px 0px 0px 45px;
@@ -38,7 +38,6 @@ body{
     position:absolute;
     display:block;
 }
-
 .background-top{
     background-color: #EC9085;
     border-radius: 45px 45px 0px 0px;
@@ -46,26 +45,14 @@ body{
     grid-row: 1/1;
     display: inline-flex;
 }
-
 li{
     list-style-type:none;
 }
-
-.menu{
-    text-decoration: none;
-    font-size: 20px;
-    color: #FFF;
-    text-align: center;
-    display: flex;
-    align-self: flex-end;
-}
-
 .name{
-    font-size:30px;
+    font-size: 30px;
     margin-top: 18px;
     margin-left: 25px;
     color: #FFF;
-    font-weight: 600;
 }
 .fechar {
     border: none;
@@ -86,9 +73,17 @@ li{
     height: 30px;
     border-radius: 50%;
     right: 70px;
-    top:20px;
+    top: 20px;
     position: absolute;
     background: #FFE7DD url('/img/minimize_black_24dp.svg') no-repeat center center;
     cursor: pointer;
   }
-  
+
+.menu{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-self: flex-end;
+} 
