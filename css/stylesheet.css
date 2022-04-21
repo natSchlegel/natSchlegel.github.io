@@ -27,14 +27,14 @@ a, a li, a li i, a span, a span i, a i, a iframe, a div, a div i, a img, a p, a 
     box-sizing: border-box;
     grid-column: 2/3;
     grid-row: 2/2;
-    border-radius: 0px 0px 45px 0px;
+    border-radius: 0px 0px 35px 0px;
     font-size: 16px;
     color:#FFF;
     padding: 30px;
 }
 .background-left{
     background-color: #93A3BD;
-    border-radius: 0px 0px 0px 45px;
+    border-radius: 0px 0px 0px 35px;
     width: 100%;
     height: 100%;
     grid-column: 1/1; 
@@ -44,7 +44,7 @@ a, a li, a li i, a span, a span i, a i, a iframe, a div, a div i, a img, a p, a 
 }
 .background-top{
     background-color: #EC9085;
-    border-radius: 45px 45px 0px 0px;
+    border-radius: 35px 35px 0px 0px;
     grid-column: span 2;
     grid-row: 1/1;
     display: inline-flex;
@@ -61,8 +61,7 @@ li{
     left: -80px;
     top:100px;
     position: absolute;
-    background: url('/img/description_FILL0_wght400_GRAD0_opsz48.svg') no-repeat center center;
-    cursor: pointer;
+    background: url('/img/description.svg') no-repeat center center;
 }
 
 .bin {
@@ -73,8 +72,7 @@ li{
     right: -200px;
     bottom: 20px;
     position: absolute;
-    background: url('/img/delete_FILL0_wght400_GRAD0_opsz48.svg') no-repeat center center;
-    cursor: pointer;
+    background: url('/img/delete.svg') no-repeat center center;
 }
 
 .name{
@@ -92,7 +90,7 @@ li{
     right: 30px;
     top:20px;
     position: absolute;
-    background: #FFE7DD url('/img/close_black_24dp.svg') no-repeat center center;
+    background: #FFE7DD url('/img/close.svg') no-repeat center center;
     cursor: pointer;
   }
   .minimizar {
