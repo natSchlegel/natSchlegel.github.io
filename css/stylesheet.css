@@ -4,6 +4,10 @@ body{
     background: linear-gradient(90deg, rgba(255,231,221,1) 21%, rgba(234,203,200,1) 99%);
     font-family: 'Inter', Arial;
 }
+
+* {cursor: url("https://raw.githubusercontent.com/anyhsalinas/cursors/master/simplecursor5a.png"), auto;}
+a, a li, a li i, a span, a span i, a i, a iframe, a div, a div i, a img, a p, a svg, a path, button{cursor: url("https://raw.githubusercontent.com/anyhsalinas/cursors/master/simplecursor5b.png"), pointer;}
+
 .background-toolbar{
     position: absolute;
     width: 60%;
