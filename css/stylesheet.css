@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 body{
-    background-color: #EACBC8;
+    background: linear-gradient(90deg, rgba(255,231,221,1) 21%, rgba(234,203,200,1) 99%);
     font-family: 'Inter', Arial;
 }
 .background-toolbar{
@@ -48,6 +48,31 @@ body{
 li{
     list-style-type:none;
 }
+
+.file {
+    border: none;
+    background: none;
+    width: 48px;
+    height: 48px;
+    left: -80px;
+    top:100px;
+    position: absolute;
+    background: url('/img/description_FILL0_wght400_GRAD0_opsz48.svg') no-repeat center center;
+    cursor: pointer;
+}
+
+.bin {
+    border: none;
+    background: none;
+    width: 48px;
+    height: 48px;
+    right: -200px;
+    bottom: 20px;
+    position: absolute;
+    background: url('/img/delete_FILL0_wght400_GRAD0_opsz48.svg') no-repeat center center;
+    cursor: pointer;
+}
+
 .name{
     font-size: 30px;
     margin-top: 18px;
