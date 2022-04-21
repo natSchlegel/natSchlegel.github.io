@@ -44,6 +44,7 @@ body{
     border-radius: 45px 45px 0px 0px;
     grid-column: span 2;
     grid-row: 1/1;
+    display: inline-flex;
 }
 
 li{
@@ -58,3 +59,36 @@ li{
     display: flex;
     align-self: flex-end;
 }
+.name{
+    font-size:30px;
+    margin-top: 18px;
+    margin-left: 25px;
+    color: #FFF;
+    font-weight: 600;
+}
+.fechar {
+    border: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: 30px;
+    top:20px;
+    position: absolute;
+    background: #FFE7DD url('/img/close_black_24dp.svg') no-repeat center center;
+    cursor: pointer;
+  }
+
+  .minimizar {
+    border: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: 70px;
+    top:20px;
+    position: absolute;
+    background: #FFE7DD url('/img/minimize_black_24dp.svg') no-repeat center center;
+    cursor: pointer;
+  }
+  
