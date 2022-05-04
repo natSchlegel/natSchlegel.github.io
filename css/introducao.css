@@ -29,9 +29,9 @@
 
 .introducao-perfil{
   border-radius: 10px;
-  box-shadow: 5px 5px 1px #ccc;
-  -webkit-box-shadow: 3px 3px 1px #ccc;
-  -moz-box-shadow: 3px 3px 1px #ccc;
+  box-shadow: 10px 10px 10px #ccc;
+  -webkit-box-shadow: 10px 10px 10px #ccc;
+  -moz-box-shadow: 10px 10px 10px #ccc;
 }
 
 .introducao p {

@@ -32,6 +32,9 @@
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  /* box-shadow: 2px 2px 10px #ccc;
+  -webkit-box-shadow: 2px 2px 10px #ccc;
+  -moz-box-shadow: 2px 2px 10px #ccc; */
 }
 
 .empresa::before {
@@ -80,6 +83,9 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+  /* box-shadow: 0.2px 0.2px 5px #ccc;
+  -webkit-box-shadow: 0.2px 0.2px 5px #ccc;
+  -moz-box-shadow: 0.2px 0.2px 5px #ccc; */
 }
 
 @media (max-width: 800px) {
