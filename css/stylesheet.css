@@ -81,36 +81,18 @@ li{
     margin-left: 25px;
     color: #FFF;
 }
-.fechar {
+.circulo {
     border: none;
-    background: none;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    right: 30px;
-    top:20px;
-    position: absolute;
-    background: #FFE7DD url('/img/close.svg') no-repeat center center;
+    background: #FFE7DD;
     cursor: pointer;
-  }
-  .minimizar {
-    border: none;
-    background: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    right: 70px;
-    top: 20px;
-    position: absolute;
-    background: #FFE7DD url('/img/minimize_black_24dp.svg') no-repeat center center;
-    cursor: pointer;
-  }
+    margin-right: 10px;
+}
 
-.menu{
-    text-decoration: none;
-    font-size: 20px;
-    color: #FFF;
-    text-align: center;
-    display: flex;
-    align-self: flex-end;
-} 
+.titulo-interior{
+    background-color:#EC9085;
+    color: white;
+    margin-top: 20px;
+}
