@@ -4,7 +4,7 @@ const Text = {
       resume: 'Resume',
       projects: 'Projects',
     },
-    bio: 'Hello! My name is Natascha, and I am a Junior Full Stack Developer. I have hands-on experience and prefer working with C# and ASP.NET in the backend. I also have knowledge of programming with Python, jQuery, Java, and React.',
+    bio: 'Hello! My name is Natascha, and I am a Junior Full Stack Developer. I have previous experience working with C# and ASP.NET, and I also have knowledge of React and Python. I am currently expanding my skills by learning about cloud environments with Azure. I am especially interested in opportunities in web development.',
     buttons: {
       portfolio: 'Projects',
       experience: 'Experience',
@@ -125,7 +125,7 @@ const Text = {
       resume: 'Lebenslauf',
       projects: 'Projekte',
     },
-    bio: 'Hallo! Mein Name ist Natascha und ich bin Junior Full Stack Entwicklerin. Ich habe praktische Erfahrung und bevorzuge die Arbeit mit C# und ASP.NET im Backend. Ich habe auch Kenntnisse in Programmierung mit Python, jQuery, Java und React.',
+    bio: 'Hallo! Mein Name ist Natascha und ich bin Junior Full Stack Entwicklerin. Ich habe bereits Erfahrung mit C# und ASP.NET gesammelt und besitze zudem Kenntnisse in React und Python. Aktuell erweitere ich mein Wissen im Bereich Cloud-Umgebungen mit Azure. Besonders interessiere ich mich für Tätigkeiten in der Webentwicklung.',
     buttons: {
       portfolio: 'Projekte',
       experience: 'Erfahrung',
@@ -246,7 +246,7 @@ const Text = {
       resume: 'Currículo',
       projects: 'Projetos',
     },
-    bio: 'Olá! Meu nome é Natascha e sou Desenvolvedora Full Stack Junior. Tenho experiência prática e prefiro trabalhar com C# e ASP.NET no backend. Também tenho conhecimentos em programação com Python, jQuery, Java e React.',
+    bio: 'Olá! Meu nome é Natascha e sou Desenvolvedora Full Stack Júnior. Já trabalhei com C# e ASP.NET e também tenho conhecimentos em React e Python. Atualmente, estou aprendendo mais sobre ambientes em nuvem com Azure. Tenho grande interesse em atuar na área de desenvolvimento web.',
     buttons: {
       portfolio: 'Projetos',
       experience: 'Experiência',
