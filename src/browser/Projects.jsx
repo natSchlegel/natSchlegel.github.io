@@ -4,8 +4,12 @@ import dogsImage from "../assets/screenshots/dogs.png";
 import animalsImage from "../assets/screenshots/fantastic-animals.png";
 import programadasImage from "../assets/screenshots/programadas.png";
 import chuckNorrisImage from "../assets/screenshots/chuck-norris.png"
+import { useOS } from "../Context";
 
-const Projects = ({text}) => {
+
+const Projects = () => {
+
+const { text } = useOS();
 
     const chuckNorris = {
     name: "Chuck Norris Quotes",
